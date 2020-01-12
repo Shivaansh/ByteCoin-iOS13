@@ -11,6 +11,12 @@ import Foundation
 struct CoinManager {
     
     let baseURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC"
+    
+    //list of currencies displayed in currencyPicker
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     
+    func getCoinPrice(_ for: String)
+    {
+        print("Getting bitcoin price in ")
+    }
 }
